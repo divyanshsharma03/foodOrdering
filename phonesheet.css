@@ -1,0 +1,84 @@
+html p{
+    font-size: 0.5rem;
+}
+/* Navbar */
+#navbar {
+    position: relative;
+    flex-direction: column;
+}
+#navbar ul{
+    position: sticky;
+    flex-direction: column;
+}
+#navbar::before {
+    opacity: 0.75;
+}
+#logo img {
+    height: 40px;
+    padding: 2px 20px;
+}
+#navbar ul li a{
+    padding: 1px 5px;
+    font-size: 0.7rem;
+}
+/* Home */
+#home {
+    position: relative;
+    height: 500px;
+    flex-direction: column;
+}
+.homebox {
+    padding: 0px 1px;
+    margin: 1px 2px;
+    height: 90px;
+    width: 100px;
+}
+#home1 {
+    padding: 7px 20px;
+}
+/* Services */
+#services {
+    height: auto;
+}
+#services1 {
+    flex-direction: column;
+}
+.servicebox img {
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+}
+.servicebox {
+    padding: 1px 2px;
+    margin: 8px 1px;
+    height: auto;
+    box-shadow: inset 1px -1px 4px 0px;
+}
+/* Reviews */
+#reviews {
+    height: auto;
+}
+.cxbox {
+    width: 300px;
+}
+/* Contact us  */
+#contact {
+    height: auto;
+}
+.form p {
+    padding: 4px;
+    font-size: 0.7rem;
+}
+
+
+/* Utility Classes */
+.h-primary {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    animation: none;
+    letter-spacing: 1px;
+}
+.h-secondary {
+    font-size: 0.9rem;
+    padding: 5px;
+}
